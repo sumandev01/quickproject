@@ -1,0 +1,165 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Jost", system-ui;
+}
+
+/*Container CSS Start*/
+.container{
+	width: 80%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.container-1{
+	width: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+/*Container CSS End*/
+
+/*Header CSS Start*/
+.header-section{
+	border-bottom: 1px solid #ebebeb;
+}
+.logo{
+	width: 20%;
+	float: left;
+	display: flex;
+	justify-content: left;
+	justify-items: center;
+	padding: 15px 0;
+}
+.menu{
+	width: 80%;
+	float: left;
+	display: flex;
+	text-align: right;
+	justify-content: right;
+	padding: 20px 0;
+}
+.menu ul{
+	margin: 0;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+.menu ul li:last-child a{
+	margin: 0;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	display: inline-block;
+	margin: 0 40px 0 0;
+	transition: transform 0.3s;
+}
+.menu ul li a:hover{
+	transform: scale(1.1);
+}
+/*Header CSS End*/
+
+/*Banner CSS Start*/
+.banner{
+	text-align: center;
+	padding: 60px 0;
+}
+.b-text h1{
+	margin: 0;
+	font-size: 45px;
+}
+.b-text h2{
+	font-size: 45px;
+	margin: 0;
+	padding: 10px 0;
+	color: #008aff;
+}
+.b-text p,
+.s-left p{
+	font-size: 16px;
+	line-height: 21px;
+}
+.b-img img{
+	width: 100%;
+}
+/*Banner CSS End*/
+
+/*Success CSS Start*/
+.success{
+	padding: 60px 0;
+}
+.s-left{
+	width: 50%;
+	box-sizing: border-box;
+	float: left;
+	padding: 0 30px 0 0;
+	text-align: right;
+}
+.s-left h2{
+	margin: 0;
+	color: #f15767;
+	font-size: 45px;
+}
+.s-right{
+	width: 50%;
+	box-sizing: border-box;
+	float: left;
+	padding: 0 0 0 30px;
+}
+.s-right h2{
+	margin: 0;
+	font-size: 45px;
+}
+/*Success CSS End*/
+
+/*Feature CSS Start*/
+.feature{
+	padding: 60px 0;
+}
+.f-box{
+	width: 33.33%;
+	float: left;
+	box-sizing: border-box;
+}
+.f-img{
+/*	width: 100%;*/
+}
+.f-img img{
+	width: 100%;
+}
+.f-text h2{
+	font-size: 25px;
+}
+.f-text p{
+	font-size: 16px;
+}
+.f-bg1{
+	padding: 40px 30px;
+	margin: 0 20px 0 0;
+	background-color: #fdebed;
+}.f-bg2{
+	padding: 40px 30px;
+	margin: 0 10px;
+	background-color: #eaf9f4;
+}.f-bg3{
+	padding: 40px 30px;
+	margin: 0 0 0 20px;
+	background-color: #fff7e8;
+}
+/*Feature CSS End*/
+.footer-section{
+	background-color: #008aff;
+}
+.footer p{
+	text-align: center;
+	color: #ffffffa1;
+	padding: 12px 0;
+	margin: 0;
+}
+.footer p a{
+	color: #ffffff;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+/*Footer CSS End*/
