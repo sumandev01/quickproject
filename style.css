@@ -50,12 +50,13 @@ body{
 .menu ul li a{
 	text-decoration: none;
 	font-size: 18px;
+	color: #000000;
 	display: inline-block;
 	margin: 0 40px 0 0;
 	transition: transform 0.3s;
 }
 .menu ul li a:hover{
-	transform: scale(1.1);
+	color: #008aff;
 }
 /*Header CSS End*/
 
